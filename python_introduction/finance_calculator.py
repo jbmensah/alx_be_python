@@ -13,4 +13,4 @@ print("Your monthly savings are $" + str(monthly_savings) + ".")
 projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
 # Print out projected savings
-print("Projected savings after one year, with interest, is: $" + str(int(projected_savings)) + ".")
+print("Projected savings after one year, with interest, is: $" + str(float(projected_savings)) + ".")
