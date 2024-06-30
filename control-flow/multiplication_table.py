@@ -5,5 +5,5 @@ for i in range(1, 11):
 	for j in range(1, 11):
 		# Inner loop iterates through columns (other factors)
 		product = number * i
-	print(f"{number} x {i} = {product}") # Print with new line for better formatting
+	print(f"{number} * {i} = {product}") # Print with new line for better formatting
 	# print() # Move to a new line after each row
