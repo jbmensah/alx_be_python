@@ -13,7 +13,7 @@ def main():
 		choice = input("Enter your choice: ")
 
 		if choice == '1':
-			add_item = input("Enter item to add: ")
+			add_item = input("Enter the item to add: ")
 			if add_item.strip(): # Check if add_item is not empty
 				shopping_list.append(add_item)
 			else:
