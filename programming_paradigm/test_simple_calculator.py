@@ -11,6 +11,7 @@ class TestSimpleCalculator(unittest.TestCase):
 		pass
 
 	def test_addition(self):
+		"""Test the addition method."""
 		self.assertEqual(self.calc.add(2, 3), 5)
 		self.assertEqual(self.calc.add(-1, 1), 0)
 		self.assertEqual(self.calc.add(10, 5), 15)
@@ -38,5 +39,5 @@ class TestSimpleCalculator(unittest.TestCase):
 		with self.assertRaises(ZeroDivisionError):
 			self.calc.divide(10, 0)
 
-# if __name__ == '__main__':
-# 	unittest.main()
+if __name__ == '__main__':
+	unittest.main()
