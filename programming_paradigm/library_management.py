@@ -36,7 +36,7 @@ class Library:
 				if book.is_checked_out():
 					book.set_checked_out(False)
 					print(f"Returned: {title}")
-					return
+					return book(self)
 				else:
 					print(f"Book {title} is already returned.")
 					return
