@@ -17,4 +17,4 @@ class BankAccount:
 		if self.account_balance == 0:
 			return 'No balance available.'
 		else:
-			print('Current balance: ${}'.format(self.account_balance))
+			print("Current balance:" "${}".format(self.account_balance))
