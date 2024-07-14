@@ -31,9 +31,10 @@ class TestSimpleCalculator(unittest.TestCase):
 		self.assertEqual(self.calc.divide(10, 5), 2)
 		self.assertEqual(self.calc.divide(-1, -1), 1)
 		self.assertEqual(self.calc.divide(-1, 1), -1)
+		self.assertEqual(self.calc.divide(10, 0), None)
 
 		# with self.assertRaises(ValueError):
 		# 	calc.divide(10, 2)
 
-if __name__ == '__main__':
-	unittest.main()
+# if __name__ == '__main__':
+# 	unittest.main()
