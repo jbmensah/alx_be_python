@@ -3,9 +3,9 @@ from simple_calculator import SimpleCalculator
 
 class TestSimpleCalculator(unittest.TestCase):
 
-	def setUp(self):
-		"""Set up the SimpleCalculator instance before each test."""
-		self.calc = SimpleCalculator()
+	# def setUp(self):
+	# 	"""Set up the SimpleCalculator instance before each test."""
+	# 	self.calc = SimpleCalculator()
 
 	def test_addition(self):
 		"""Test the addition method."""
