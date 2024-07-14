@@ -36,11 +36,12 @@ class Library:
 				if book.is_checked_out():
 					book.set_checked_out(False)
 					print(f"Returned: {title}")
-					return
+					return book
 				else:
 					print(f"Book {title} is already returned.")
-					return
+					return None
 		print(f"Book '{title}' not found in the library.")
+		return None
 
 	def list_available_books(self):
 		available_books = []
